@@ -1,0 +1,14 @@
+Simulink simulation setup :
+- In bicycle kinematics simulink model : use "Plant Model" bloc to model QCar with bicycle representation
+- Create an environment the type of complexMap.mat => boolean matrix with ones representing obstacles
+- Replace "Planner" function with an RL DDPG agent to pilot the QCar model
+- Remove all "Control" block except "Zero-Velocity At Goal" subsystem (will need to be modified) to really learn without a clear goal
+
+RL Agent :
+- Determine reward function (on C334 middle board)
+- Use watertank NN ?
+- Determine number of episodes and length
+
+Training :
+- If an episode ends with a collision => respawn to a random startLoc (one of the map value that equals to 0)
+- Else => Start next episode at the previous ending position

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2021a http://schema.mathworks.com/mf0/slexec_mm_sto/R2021a_202007071525">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="479382bf-bf94-4079-8945-f8e5efc4b046">
+    <autoSolverStatusFlags>323</autoSolverStatusFlags>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="e45f6d71-2a99-4616-ae8d-e763c4562d07">
+      <modelName>Autonomous_Driving</modelName>
+      <modelPath>Autonomous_Driving</modelPath>
+    </childModelRefInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;}</defaultsCMapping>
+    <forceAutoToImplicitSolver>1</forceAutoToImplicitSolver>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasContinuousSampleTime>true</hasContinuousSampleTime>
+    <hasNonVirtualConstantTs>true</hasNonVirtualConstantTs>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <massMatrixNzMax>7</massMatrixNzMax>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <needAbsoluteTimeForNonLoggingPurpose>true</needAbsoluteTimeForNonLoggingPurpose>
+    <numCStateRecs>7</numCStateRecs>
+    <numContinuousStates>7</numContinuousStates>
+    <numDStateRecs>1</numDStateRecs>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableCStateRecs>7</numLoggableCStateRecs>
+    <numLoggableDStateRecs>1</numLoggableDStateRecs>
+    <numLoggableJacobianDStates>3</numLoggableJacobianDStates>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <period>0.0</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <needAbsoluteTime>true</needAbsoluteTime>
+      <nonFcnCallPartitionName>Cont</nonFcnCallPartitionName>
+      <period>.0016666666666666668</period>
+      <priority>40</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D2</nonFcnCallPartitionName>
+      <period>.008333333333333333</period>
+      <priority>39</priority>
+      <rateIdx>2</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D3</nonFcnCallPartitionName>
+      <period>.01</period>
+      <priority>38</priority>
+      <rateIdx>3</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="1b0d6e19-9316-4a73-a7a6-cfa2f62e3c71">
+      <defaultValue>CHANNEL_0</defaultValue>
+      <enumName>t_channel</enumName>
+      <labels>CHANNEL_0</labels>
+      <labels>CHANNEL_1</labels>
+      <labels>CHANNEL_2</labels>
+      <labels>CHANNEL_3</labels>
+      <labels>CHANNEL_4</labels>
+      <labels>CHANNEL_5</labels>
+      <labels>CHANNEL_6</labels>
+      <labels>CHANNEL_7</labels>
+      <labels>CHANNEL_8</labels>
+      <labels>CHANNEL_9</labels>
+      <labels>CHANNEL_10</labels>
+      <labels>CHANNEL_11</labels>
+      <labels>CHANNEL_12</labels>
+      <labels>CHANNEL_13</labels>
+      <labels>CHANNEL_14</labels>
+      <labels>CHANNEL_15</labels>
+      <labels>CHANNEL_16</labels>
+      <labels>CHANNEL_17</labels>
+      <labels>CHANNEL_18</labels>
+      <labels>CHANNEL_19</labels>
+      <labels>CHANNEL_20</labels>
+      <labels>CHANNEL_21</labels>
+      <labels>CHANNEL_22</labels>
+      <labels>CHANNEL_23</labels>
+      <labels>CHANNEL_24</labels>
+      <labels>CHANNEL_25</labels>
+      <labels>CHANNEL_26</labels>
+      <labels>CHANNEL_27</labels>
+      <labels>CHANNEL_28</labels>
+      <labels>CHANNEL_29</labels>
+      <labels>CHANNEL_30</labels>
+      <labels>CHANNEL_31</labels>
+      <labels>CHANNEL_32</labels>
+      <labels>CHANNEL_33</labels>
+      <labels>CHANNEL_34</labels>
+      <labels>CHANNEL_35</labels>
+      <labels>CHANNEL_36</labels>
+      <labels>CHANNEL_37</labels>
+      <labels>CHANNEL_38</labels>
+      <labels>CHANNEL_39</labels>
+      <labels>CHANNEL_40</labels>
+      <labels>CHANNEL_41</labels>
+      <labels>CHANNEL_42</labels>
+      <labels>CHANNEL_43</labels>
+      <labels>CHANNEL_44</labels>
+      <labels>CHANNEL_45</labels>
+      <labels>CHANNEL_46</labels>
+      <labels>CHANNEL_47</labels>
+      <labels>CHANNEL_48</labels>
+      <labels>CHANNEL_49</labels>
+      <labels>CHANNEL_50</labels>
+      <labels>CHANNEL_51</labels>
+      <labels>CHANNEL_52</labels>
+      <labels>CHANNEL_53</labels>
+      <labels>CHANNEL_54</labels>
+      <labels>CHANNEL_55</labels>
+      <labels>CHANNEL_56</labels>
+      <labels>CHANNEL_57</labels>
+      <labels>CHANNEL_58</labels>
+      <labels>CHANNEL_59</labels>
+      <labels>CHANNEL_60</labels>
+      <labels>CHANNEL_61</labels>
+      <labels>CHANNEL_62</labels>
+      <labels>CHANNEL_63</labels>
+      <labels>CHANNEL_64</labels>
+      <labels>CHANNEL_65</labels>
+      <labels>CHANNEL_66</labels>
+      <labels>CHANNEL_67</labels>
+      <labels>CHANNEL_68</labels>
+      <labels>CHANNEL_69</labels>
+      <labels>CHANNEL_70</labels>
+      <labels>CHANNEL_71</labels>
+      <labels>CHANNEL_72</labels>
+      <labels>CHANNEL_73</labels>
+      <labels>CHANNEL_74</labels>
+      <labels>CHANNEL_75</labels>
+      <labels>CHANNEL_76</labels>
+      <labels>CHANNEL_77</labels>
+      <labels>CHANNEL_78</labels>
+      <labels>CHANNEL_79</labels>
+      <labels>CHANNEL_80</labels>
+      <labels>CHANNEL_81</labels>
+      <labels>CHANNEL_82</labels>
+      <labels>CHANNEL_83</labels>
+      <labels>CHANNEL_84</labels>
+      <labels>CHANNEL_85</labels>
+      <labels>CHANNEL_86</labels>
+      <labels>CHANNEL_87</labels>
+      <labels>CHANNEL_88</labels>
+      <labels>CHANNEL_89</labels>
+      <labels>CHANNEL_90</labels>
+      <labels>CHANNEL_91</labels>
+      <labels>CHANNEL_92</labels>
+      <labels>CHANNEL_93</labels>
+      <labels>CHANNEL_94</labels>
+      <labels>CHANNEL_95</labels>
+      <labels>CHANNEL_96</labels>
+      <labels>CHANNEL_97</labels>
+      <labels>CHANNEL_98</labels>
+      <labels>CHANNEL_99</labels>
+      <labels>CHANNEL_100</labels>
+      <labels>CHANNEL_101</labels>
+      <labels>CHANNEL_102</labels>
+      <labels>CHANNEL_103</labels>
+      <labels>CHANNEL_104</labels>
+      <labels>CHANNEL_105</labels>
+      <labels>CHANNEL_106</labels>
+      <labels>CHANNEL_107</labels>
+      <labels>CHANNEL_108</labels>
+      <labels>CHANNEL_109</labels>
+      <labels>CHANNEL_110</labels>
+      <labels>CHANNEL_111</labels>
+      <labels>CHANNEL_112</labels>
+      <labels>CHANNEL_113</labels>
+      <labels>CHANNEL_114</labels>
+      <labels>CHANNEL_115</labels>
+      <labels>CHANNEL_116</labels>
+      <labels>CHANNEL_117</labels>
+      <labels>CHANNEL_118</labels>
+      <labels>CHANNEL_119</labels>
+      <labels>CHANNEL_120</labels>
+      <labels>CHANNEL_121</labels>
+      <labels>CHANNEL_122</labels>
+      <labels>CHANNEL_123</labels>
+      <labels>CHANNEL_124</labels>
+      <labels>CHANNEL_125</labels>
+      <labels>CHANNEL_126</labels>
+      <labels>CHANNEL_127</labels>
+      <labels>CHANNEL_128</labels>
+      <labels>CHANNEL_129</labels>
+      <labels>CHANNEL_130</labels>
+      <labels>CHANNEL_131</labels>
+      <labels>CHANNEL_132</labels>
+      <labels>CHANNEL_133</labels>
+      <labels>CHANNEL_134</labels>
+      <labels>CHANNEL_135</labels>
+      <labels>CHANNEL_136</labels>
+      <labels>CHANNEL_137</labels>
+      <labels>CHANNEL_138</labels>
+      <labels>CHANNEL_139</labels>
+      <labels>CHANNEL_140</labels>
+      <labels>CHANNEL_141</labels>
+      <labels>CHANNEL_142</labels>
+      <labels>CHANNEL_143</labels>
+      <labels>CHANNEL_144</labels>
+      <labels>CHANNEL_145</labels>
+      <labels>CHANNEL_146</labels>
+      <labels>CHANNEL_147</labels>
+      <labels>CHANNEL_148</labels>
+      <labels>CHANNEL_149</labels>
+      <labels>CHANNEL_150</labels>
+      <labels>CHANNEL_151</labels>
+      <labels>CHANNEL_152</labels>
+      <labels>CHANNEL_153</labels>
+      <labels>CHANNEL_154</labels>
+      <labels>CHANNEL_155</labels>
+      <labels>CHANNEL_156</labels>
+      <labels>CHANNEL_157</labels>
+      <labels>CHANNEL_158</labels>
+      <labels>CHANNEL_159</labels>
+      <labels>CHANNEL_160</labels>
+      <labels>CHANNEL_161</labels>
+      <labels>CHANNEL_162</labels>
+      <labels>CHANNEL_163</labels>
+      <labels>CHANNEL_164</labels>
+      <labels>CHANNEL_165</labels>
+      <labels>CHANNEL_166</labels>
+      <labels>CHANNEL_167</labels>
+      <labels>CHANNEL_168</labels>
+      <labels>CHANNEL_169</labels>
+      <labels>CHANNEL_170</labels>
+      <labels>CHANNEL_171</labels>
+      <labels>CHANNEL_172</labels>
+      <labels>CHANNEL_173</labels>
+      <labels>CHANNEL_174</labels>
+      <labels>CHANNEL_175</labels>
+      <labels>CHANNEL_176</labels>
+      <labels>CHANNEL_177</labels>
+      <labels>CHANNEL_178</labels>
+      <labels>CHANNEL_179</labels>
+      <labels>CHANNEL_180</labels>
+      <labels>CHANNEL_181</labels>
+      <labels>CHANNEL_182</labels>
+      <labels>CHANNEL_183</labels>
+      <labels>CHANNEL_184</labels>
+      <labels>CHANNEL_185</labels>
+      <labels>CHANNEL_186</labels>
+      <labels>CHANNEL_187</labels>
+      <labels>CHANNEL_188</labels>
+      <labels>CHANNEL_189</labels>
+      <labels>CHANNEL_190</labels>
+      <labels>CHANNEL_191</labels>
+      <labels>CHANNEL_192</labels>
+      <labels>CHANNEL_193</labels>
+      <labels>CHANNEL_194</labels>
+      <labels>CHANNEL_195</labels>
+      <labels>CHANNEL_196</labels>
+      <labels>CHANNEL_197</labels>
+      <labels>CHANNEL_198</labels>
+      <labels>CHANNEL_199</labels>
+      <labels>CHANNEL_200</labels>
+      <labels>CHANNEL_201</labels>
+      <labels>CHANNEL_202</labels>
+      <labels>CHANNEL_203</labels>
+      <labels>CHANNEL_204</labels>
+      <labels>CHANNEL_205</labels>
+      <labels>CHANNEL_206</labels>
+      <labels>CHANNEL_207</labels>
+      <labels>CHANNEL_208</labels>
+      <labels>CHANNEL_209</labels>
+      <labels>CHANNEL_210</labels>
+      <labels>CHANNEL_211</labels>
+      <labels>CHANNEL_212</labels>
+      <labels>CHANNEL_213</labels>
+      <labels>CHANNEL_214</labels>
+      <labels>CHANNEL_215</labels>
+      <labels>CHANNEL_216</labels>
+      <labels>CHANNEL_217</labels>
+      <labels>CHANNEL_218</labels>
+      <labels>CHANNEL_219</labels>
+      <labels>CHANNEL_220</labels>
+      <labels>CHANNEL_221</labels>
+      <labels>CHANNEL_222</labels>
+      <labels>CHANNEL_223</labels>
+      <labels>CHANNEL_224</labels>
+      <labels>CHANNEL_225</labels>
+      <labels>CHANNEL_226</labels>
+      <labels>CHANNEL_227</labels>
+      <labels>CHANNEL_228</labels>
+      <labels>CHANNEL_229</labels>
+      <labels>CHANNEL_230</labels>
+      <labels>CHANNEL_231</labels>
+      <labels>CHANNEL_232</labels>
+      <labels>CHANNEL_233</labels>
+      <labels>CHANNEL_234</labels>
+      <labels>CHANNEL_235</labels>
+      <labels>CHANNEL_236</labels>
+      <labels>CHANNEL_237</labels>
+      <labels>CHANNEL_238</labels>
+      <labels>CHANNEL_239</labels>
+      <labels>CHANNEL_240</labels>
+      <labels>CHANNEL_241</labels>
+      <labels>CHANNEL_242</labels>
+      <labels>CHANNEL_243</labels>
+      <labels>CHANNEL_244</labels>
+      <labels>CHANNEL_245</labels>
+      <labels>CHANNEL_246</labels>
+      <labels>CHANNEL_247</labels>
+      <labels>CHANNEL_248</labels>
+      <labels>CHANNEL_249</labels>
+      <labels>CHANNEL_250</labels>
+      <labels>CHANNEL_251</labels>
+      <labels>CHANNEL_252</labels>
+      <labels>CHANNEL_253</labels>
+      <labels>CHANNEL_254</labels>
+      <labels>CHANNEL_255</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+      <values>6</values>
+      <values>7</values>
+      <values>8</values>
+      <values>9</values>
+      <values>10</values>
+      <values>11</values>
+      <values>12</values>
+      <values>13</values>
+      <values>14</values>
+      <values>15</values>
+      <values>16</values>
+      <values>17</values>
+      <values>18</values>
+      <values>19</values>
+      <values>20</values>
+      <values>21</values>
+      <values>22</values>
+      <values>23</values>
+      <values>24</values>
+      <values>25</values>
+      <values>26</values>
+      <values>27</values>
+      <values>28</values>
+      <values>29</values>
+      <values>30</values>
+      <values>31</values>
+      <values>32</values>
+      <values>33</values>
+      <values>34</values>
+      <values>35</values>
+      <values>36</values>
+      <values>37</values>
+      <values>38</values>
+      <values>39</values>
+      <values>40</values>
+      <values>41</values>
+      <values>42</values>
+      <values>43</values>
+      <values>44</values>
+      <values>45</values>
+      <values>46</values>
+      <values>47</values>
+      <values>48</values>
+      <values>49</values>
+      <values>50</values>
+      <values>51</values>
+      <values>52</values>
+      <values>53</values>
+      <values>54</values>
+      <values>55</values>
+      <values>56</values>
+      <values>57</values>
+      <values>58</values>
+      <values>59</values>
+      <values>60</values>
+      <values>61</values>
+      <values>62</values>
+      <values>63</values>
+      <values>64</values>
+      <values>65</values>
+      <values>66</values>
+      <values>67</values>
+      <values>68</values>
+      <values>69</values>
+      <values>70</values>
+      <values>71</values>
+      <values>72</values>
+      <values>73</values>
+      <values>74</values>
+      <values>75</values>
+      <values>76</values>
+      <values>77</values>
+      <values>78</values>
+      <values>79</values>
+      <values>80</values>
+      <values>81</values>
+      <values>82</values>
+      <values>83</values>
+      <values>84</values>
+      <values>85</values>
+      <values>86</values>
+      <values>87</values>
+      <values>88</values>
+      <values>89</values>
+      <values>90</values>
+      <values>91</values>
+      <values>92</values>
+      <values>93</values>
+      <values>94</values>
+      <values>95</values>
+      <values>96</values>
+      <values>97</values>
+      <values>98</values>
+      <values>99</values>
+      <values>100</values>
+      <values>101</values>
+      <values>102</values>
+      <values>103</values>
+      <values>104</values>
+      <values>105</values>
+      <values>106</values>
+      <values>107</values>
+      <values>108</values>
+      <values>109</values>
+      <values>110</values>
+      <values>111</values>
+      <values>112</values>
+      <values>113</values>
+      <values>114</values>
+      <values>115</values>
+      <values>116</values>
+      <values>117</values>
+      <values>118</values>
+      <values>119</values>
+      <values>120</values>
+      <values>121</values>
+      <values>122</values>
+      <values>123</values>
+      <values>124</values>
+      <values>125</values>
+      <values>126</values>
+      <values>127</values>
+      <values>128</values>
+      <values>129</values>
+      <values>130</values>
+      <values>131</values>
+      <values>132</values>
+      <values>133</values>
+      <values>134</values>
+      <values>135</values>
+      <values>136</values>
+      <values>137</values>
+      <values>138</values>
+      <values>139</values>
+      <values>140</values>
+      <values>141</values>
+      <values>142</values>
+      <values>143</values>
+      <values>144</values>
+      <values>145</values>
+      <values>146</values>
+      <values>147</values>
+      <values>148</values>
+      <values>149</values>
+      <values>150</values>
+      <values>151</values>
+      <values>152</values>
+      <values>153</values>
+      <values>154</values>
+      <values>155</values>
+      <values>156</values>
+      <values>157</values>
+      <values>158</values>
+      <values>159</values>
+      <values>160</values>
+      <values>161</values>
+      <values>162</values>
+      <values>163</values>
+      <values>164</values>
+      <values>165</values>
+      <values>166</values>
+      <values>167</values>
+      <values>168</values>
+      <values>169</values>
+      <values>170</values>
+      <values>171</values>
+      <values>172</values>
+      <values>173</values>
+      <values>174</values>
+      <values>175</values>
+      <values>176</values>
+      <values>177</values>
+      <values>178</values>
+      <values>179</values>
+      <values>180</values>
+      <values>181</values>
+      <values>182</values>
+      <values>183</values>
+      <values>184</values>
+      <values>185</values>
+      <values>186</values>
+      <values>187</values>
+      <values>188</values>
+      <values>189</values>
+      <values>190</values>
+      <values>191</values>
+      <values>192</values>
+      <values>193</values>
+      <values>194</values>
+      <values>195</values>
+      <values>196</values>
+      <values>197</values>
+      <values>198</values>
+      <values>199</values>
+      <values>200</values>
+      <values>201</values>
+      <values>202</values>
+      <values>203</values>
+      <values>204</values>
+      <values>205</values>
+      <values>206</values>
+      <values>207</values>
+      <values>208</values>
+      <values>209</values>
+      <values>210</values>
+      <values>211</values>
+      <values>212</values>
+      <values>213</values>
+      <values>214</values>
+      <values>215</values>
+      <values>216</values>
+      <values>217</values>
+      <values>218</values>
+      <values>219</values>
+      <values>220</values>
+      <values>221</values>
+      <values>222</values>
+      <values>223</values>
+      <values>224</values>
+      <values>225</values>
+      <values>226</values>
+      <values>227</values>
+      <values>228</values>
+      <values>229</values>
+      <values>230</values>
+      <values>231</values>
+      <values>232</values>
+      <values>233</values>
+      <values>234</values>
+      <values>235</values>
+      <values>236</values>
+      <values>237</values>
+      <values>238</values>
+      <values>239</values>
+      <values>240</values>
+      <values>241</values>
+      <values>242</values>
+      <values>243</values>
+      <values>244</values>
+      <values>245</values>
+      <values>246</values>
+      <values>247</values>
+      <values>248</values>
+      <values>249</values>
+      <values>250</values>
+      <values>251</values>
+      <values>252</values>
+      <values>253</values>
+      <values>254</values>
+      <values>255</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2021a_202007071525&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;&gt;
+    &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;00189d22-dbe5-46d3-be5b-2b2f9f6171f3&quot;&gt;
+      &lt;computedFundamentalDiscretePeriod&gt;.0016666666666666668&lt;/computedFundamentalDiscretePeriod&gt;
+      &lt;resolution&gt;.0016666666666666668&lt;/resolution&gt;
+      &lt;clockTickConstraint&gt;PeriodicWithFixedResolution&lt;/clockTickConstraint&gt;
+      &lt;specifiedTaskingMode&gt;ClassicMultiTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;7af87f2e-6877-46b6-854c-9f79f3002094&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;a4f665aa-8814-49ab-b793-928f0ee72cfe&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;97581c9c-f8ce-44eb-8929-5d1135b9ef21&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;74ddb7c8-43b2-4c58-ac29-ec1eb70fa6f6&quot;/&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;0d3b5ddf-e28b-413a-9de6-c219fcb6aaf1&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;929b755a-fa02-4463-bd4c-4f24c79af7be&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;a4f665aa-8814-49ab-b793-928f0ee72cfe&quot;&gt;
+            &lt;annotation&gt;Cont&lt;/annotation&gt;
+            &lt;description&gt;Continuous&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;e13fb919-19dc-453b-aefb-ddaa3202e466&quot;/&gt;
+          &lt;/rates&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;97581c9c-f8ce-44eb-8929-5d1135b9ef21&quot;&gt;
+            &lt;annotation&gt;D1&lt;/annotation&gt;
+            &lt;colorIndex&gt;2&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 1&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;2783af11-4738-494e-a809-3811a5865aed&quot;&gt;
+              &lt;period&gt;.0016666666666666668&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;fb993328-7e5c-4ceb-a2a8-68183e1b2dff&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;2&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;74ddb7c8-43b2-4c58-ac29-ec1eb70fa6f6&quot;&gt;
+            &lt;annotation&gt;D2&lt;/annotation&gt;
+            &lt;colorIndex&gt;3&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 2&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;2&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;/&gt;
+            &lt;taskId&gt;_task1&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;1503775f-7be6-4823-9818-78207f8dc49a&quot;&gt;
+              &lt;period&gt;.008333333333333333&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;1&lt;/tNum&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task1&lt;/identifier&gt;
+          &lt;priority&gt;39&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;da57efc6-62f3-48d7-9768-802d3c793f5b&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;3&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;0d3b5ddf-e28b-413a-9de6-c219fcb6aaf1&quot;&gt;
+            &lt;annotation&gt;D3&lt;/annotation&gt;
+            &lt;colorIndex&gt;4&lt;/colorIndex&gt;
+            &lt;description&gt;Discrete 3&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;3&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;/&gt;
+            &lt;taskId&gt;_task2&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;5ab8a631-5fca-435a-ad0f-7449f8d0d11f&quot;&gt;
+              &lt;period&gt;.01&lt;/period&gt;
+              &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;2&lt;/tNum&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task2&lt;/identifier&gt;
+          &lt;priority&gt;38&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;clocks type=&quot;sto.Event&quot; uuid=&quot;66650661-c3ea-4762-900d-18a3edac8564&quot;&gt;
+      &lt;clientId&gt;ParameterChangeEvent&lt;/clientId&gt;
+      &lt;eventType&gt;PARAMETER_CHANGE_EVENT&lt;/eventType&gt;
+      &lt;cNum&gt;1&lt;/cNum&gt;
+      &lt;clockType&gt;Event&lt;/clockType&gt;
+      &lt;identifier&gt;ParameterChangeEvent&lt;/identifier&gt;
+      &lt;specifiedTaskingMode&gt;ExplicitTasking&lt;/specifiedTaskingMode&gt;
+      &lt;timeAdvanceMode&gt;None&lt;/timeAdvanceMode&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;ffa23a8d-1f3b-447c-a40d-4d586dfea67b&quot;&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;220f45bb-a979-4c3a-bd1b-acca10c146db&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;9c9b049e-7bc1-4acb-86bf-ea08b8b9b493&quot;&gt;
+          &lt;isExplicit&gt;true&lt;/isExplicit&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;220f45bb-a979-4c3a-bd1b-acca10c146db&quot;&gt;
+            &lt;eventSourceType&gt;PARAMETER_CHANGE_EVENT&lt;/eventSourceType&gt;
+            &lt;rateIDX&gt;-1&lt;/rateIDX&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;11ab5760-a902-4756-9e32-feb1b455bd3c&quot;/&gt;
+            &lt;stringID&gt;ParameterChangeEvent&lt;/stringID&gt;
+            &lt;taskId&gt;ModelWideParameterChangeEvent&lt;/taskId&gt;
+            &lt;useForExecution&gt;NotForExecution&lt;/useForExecution&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;996fba36-1353-4246-a811-38facce7400b&quot;&gt;
+              &lt;period&gt;Inf&lt;/period&gt;
+              &lt;rateType&gt;ModelWideParameterChangeEvent&lt;/rateType&gt;
+            &lt;/rateSpec&gt;
+          &lt;/rates&gt;
+          &lt;tNum&gt;3&lt;/tNum&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;ModelWideParameterChangeEvent&lt;/identifier&gt;
+          &lt;priority&gt;-1&lt;/priority&gt;
+          &lt;schedulingClockID&gt;ParameterChangeEvent&lt;/schedulingClockID&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;1cc8fde8-76ab-4681-804a-04d4b4ab98f6&quot;&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;eb3d21c1-a201-458a-b2bd-72d3e926b528&quot;&gt;
+        &lt;isInternal&gt;true&lt;/isInternal&gt;
+        &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;5acc6651-8806-4f7e-946a-8b2e0e126014&quot;&gt;
+        &lt;expectedExecOrder&gt;TargetFirst&lt;/expectedExecOrder&gt;
+        &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;taskIdentifier&gt;_task2&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;ce33d781-b23a-4525-882a-96116f9d1159&quot;&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;1f79b0b8-94ee-4093-b497-07a11e92ec9f&quot;&gt;
+        &lt;expectedExecOrder&gt;SourceFirst&lt;/expectedExecOrder&gt;
+        &lt;targetTaskIdentifier&gt;_task2&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;07921970-661c-4ff7-978c-b40b4264be06&quot;&gt;
+        &lt;expectedExecOrder&gt;TargetFirst&lt;/expectedExecOrder&gt;
+        &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;taskIdentifier&gt;_task1&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;53be1dbc-e3cd-4106-a9e7-c12ef8f67a6e&quot;&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;7ba48c20-c131-489f-9c9d-c0d310176d94&quot;&gt;
+        &lt;isInternal&gt;true&lt;/isInternal&gt;
+        &lt;targetTaskIdentifier&gt;_task2&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;3fb8cf2c-4737-4b81-af10-5a6ae9269caf&quot;&gt;
+        &lt;expectedExecOrder&gt;SourceFirst&lt;/expectedExecOrder&gt;
+        &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+      &lt;/serializedConnectionProperties&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;bdebda27-385d-49c4-9883-8f55a209857c&quot;&gt;
+      &lt;clockIdentifier&gt;ParameterChangeEvent&lt;/clockIdentifier&gt;
+      &lt;taskIdentifier&gt;ModelWideParameterChangeEvent&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskingMode&gt;ClassicMultiTasking&lt;/taskingMode&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;929b755a-fa02-4463-bd4c-4f24c79af7be&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;fb993328-7e5c-4ceb-a2a8-68183e1b2dff&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;da57efc6-62f3-48d7-9768-802d3c793f5b&quot;/&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;9c9b049e-7bc1-4acb-86bf-ea08b8b9b493&quot;/&gt;
+    &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="705924b6-ae9d-48d6-a401-f376081eb95c">
+      <direction>63</direction>
+      <isDiscrete>true</isDiscrete>
+      <name>Reset</name>
+      <needsEventNotification>true</needsEventNotification>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <type>1</type>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="f97f6ee9-79f0-46a4-93e7-893ea8207c0e"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="2df24735-2110-41e7-8120-476b1ff436ee"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="1d74ea6e-2212-48a7-b9c8-4e1ea8ba6241">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <fixedStepSize>.0016666666666666668</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <isRateGrouped>true</isRateGrouped>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverMode>SOLVER_MODE_MULTITASKING</solverMode>
+      <solverName>ode2</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="ff0970c7-2fed-47a1-9c36-fb16187a2002">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>64</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicFloat>1</prodLargestAtomicFloat>
+        <prodLargestAtomicInteger>4</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="60791d2e-3535-40a2-869e-11e605d97d1f"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="1f177c7c-23d3-4383-af2d-4b33bbf6e961"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="d49c9c6c-e1eb-46d4-b520-e0ae717bdee5"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="4e27c82e-53cd-4a5b-8bb2-112e4e6f283f"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="476935f2-5037-41ed-90f9-e82f7b0e6a2e"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="a5646995-754f-49d0-ae79-9bf386d53300"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="5f0bf6f4-45e6-400c-b313-76ab239bac4e">
+      <hasDerivMethod>true</hasDerivMethod>
+      <hasDisableMethod>true</hasDisableMethod>
+      <hasForcingFunctionMethod>true</hasForcingFunctionMethod>
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasSystemResetMethod>true</hasSystemResetMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="f0917b65-ec08-4f32-ac8e-ee59b9bf0366">
+      <deterministicRTBs>Autonomous_Driving/Rate Transition</deterministicRTBs>
+      <deterministicRTBs>Autonomous_Driving/Rate Transition1</deterministicRTBs>
+      <deterministicRTBs>Autonomous_Driving/Rate Transition3</deterministicRTBs>
+      <deterministicRTBs>Autonomous_Driving/Rate Transition4</deterministicRTBs>
+      <deterministicRTBs>Autonomous_Driving/Rate Transition5</deterministicRTBs>
+    </periodicEventPortUnsupportedBlockInfo>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="52d59f22-f63d-45d5-904a-6a0a0056a614">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="31d13106-3893-482b-9e5f-06e1f3d00b87"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="e7bcb91d-5530-4fee-9b18-e790787367c8"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="5e964803-45dd-46d1-8395-0477395f137d"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="fec9caa9-231b-49b0-a977-99fdf8f54776"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="bfc849bf-572e-4fe2-9862-9c465039bd1d"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="d0eb3512-bb0e-49c4-a2ef-76c2cdc3b96e">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="c2dc90f9-5355-4b68-ad9c-a0f82b955fec">
+        <p_Name>Autonomous_Driving</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="858bf792-c45d-4750-80c9-8f8c2525e985">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="0b51e64b-e71c-4027-99f3-043aa0fba50f"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="dcffb6c6-375e-444a-a333-86ab03030175">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="5aaa1f87-5e61-41d4-b9d6-d6ab78d864cf">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="458e6ac3-d486-4cf1-b5db-bfc77551d059">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e2c2f4dd-f38e-4dd3-a60d-b84f789fd89c">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="c453accf-5794-4d31-ab96-a7f52a3803bc"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="114882ed-646c-4acd-a882-46248f0e841f"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="e38ce675-6713-483d-a587-2ed18f7a235c"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="c453accf-5794-4d31-ab96-a7f52a3803bc">
+          <dataName>Cont</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e2c2f4dd-f38e-4dd3-a60d-b84f789fd89c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="114882ed-646c-4acd-a882-46248f0e841f">
+          <dataName>D2</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e2c2f4dd-f38e-4dd3-a60d-b84f789fd89c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task1</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="e38ce675-6713-483d-a587-2ed18f7a235c">
+          <dataName>D3</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="e2c2f4dd-f38e-4dd3-a60d-b84f789fd89c"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task2</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="c312aaed-2918-4086-8342-8b08272c1329"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
