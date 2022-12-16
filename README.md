@@ -9,6 +9,8 @@ R2021a
 
 [TP files with premade code](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/TP_QCAR_copy/TPfiles), 
 [TP subject](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/TP_QCAR_Vfinale.pdf) and 
-[QCar connexion setup](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/Quick Start Guide.pdf)
+[QCar connexion setup](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/QuickStartGuide.pdf)
 
 [Things to implement after mastering virtual version](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/_RL_experiments)
+
+[Documents](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/Ressources_perso)
