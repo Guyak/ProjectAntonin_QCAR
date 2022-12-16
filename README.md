@@ -7,7 +7,8 @@ R2021a
 
 [Dicovering RL with watertank model](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/RL_library_tuto)
 
-[TP files with premade code](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/TP_QCAR_copy/TPfiles) and 
-[TP subject](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/TP_QCAR_V)finale.pdf)
+[TP files with premade code](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/TP_QCAR_copy/TPfiles), 
+[TP subject](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/TP_QCAR_Vfinale.pdf) and 
+[QCar connexion setup](https://github.com/Guyak/ProjectAntonin_QCAR/blob/main/TP_QCAR_copy/Quick Start Guide.pdf)
 
 [Things to implement after mastering virtual version](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/_RL_experiments)
