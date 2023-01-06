@@ -1,6 +1,6 @@
 close all; clear;
 
-open_system('BicyclePeterCorke.slx')
+open_system('BicyclePeterCorkeP2P.slx')
 
 goalCoord = [5 5];
 initCoord = [8 5 pi/2];
@@ -10,7 +10,7 @@ accelLim = 1;
 steerLim = 1;
 wheelBase = 1;
 
-simulation = sim('BicyclePeterCorke.slx');
+simulation = sim('BicyclePeterCorkeP2P.slx');
 position = simulation.position.Data;
 angle = simulation.angle.Data;
 
