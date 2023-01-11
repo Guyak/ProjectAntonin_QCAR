@@ -2,7 +2,7 @@ close all; clear;
 
 open_system('BicyclePeterCorkePathFollow.slx')
 
-initCoord = [0 0 0];
+initCoord = [0 0 -pi/2];
 path = butterfly(8,8);
 %path = circle(0,0,1);
 
@@ -12,6 +12,7 @@ speedLim = 1;
 accelLim = 1;
 steerLim = 1;
 wheelBase = 1;
+lookaheadDist = 5;
 
 simulation = sim('BicyclePeterCorkePathFollow.slx');
 position = simulation.position.Data;
@@ -22,8 +23,6 @@ plot(position(:,1), position(:,2))
 hold on
 plot(initCoord(1), initCoord(2), '*r')
 text(initCoord(1), initCoord(2), 'Start');
-xlim([-8 8])
-ylim([-8 8])
 
 function p=butterfly(width, height)
     freq = 2*pi/30;
