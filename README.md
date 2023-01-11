@@ -3,7 +3,7 @@
 R2021a
 
 # Folders
-[Virtual version of RL in QCAR](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/Bicycle_model)
+[Virtual version of RL in QCAR and implementation of Peter Corke models](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/Bicycle_model)
 
 [Dicovering RL with watertank model](https://github.com/Guyak/ProjectAntonin_QCAR/tree/main/RL_library_tuto)
 
