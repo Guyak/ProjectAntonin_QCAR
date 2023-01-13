@@ -2,17 +2,18 @@ close all; clear;
 
 open_system('BicyclePeterCorkePathFollow.slx')
 
-initCoord = [0 0 -pi/2];
-path = butterfly(8,8);
-%path = circle(0,0,1);
+initCoord = [0 0 0];
+%path = butterfly(8,8);
+path = circle(0,0,10);
 
+figure()
 plot(path(:,1), path(:,2), '*')
 
-speedLim = 1;
+speedLim = 0.1;
 accelLim = 1;
 steerLim = 1;
 wheelBase = 1;
-lookaheadDist = 5;
+lookaheadDist = 0.1;
 
 simulation = sim('BicyclePeterCorkePathFollow.slx');
 position = simulation.position.Data;

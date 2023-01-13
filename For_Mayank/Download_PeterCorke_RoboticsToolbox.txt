@@ -1,0 +1,4 @@
+Run MATLAB
+Open -> choose RTB.mltbx (in this directory)
+
+Everything will get installed directly
