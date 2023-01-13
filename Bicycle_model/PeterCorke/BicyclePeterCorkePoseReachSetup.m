@@ -2,8 +2,8 @@ close all; clear;
 
 open_system('BicyclePeterCorkePoseReach.slx')
 
-goalPose = [5 5 pi/2];
-initPose = [9 5 0];
+goalPose = [5 5 pi];
+initPose = [9 5 pi];
 
 speedLim = 1;
 accelLim = 1;
