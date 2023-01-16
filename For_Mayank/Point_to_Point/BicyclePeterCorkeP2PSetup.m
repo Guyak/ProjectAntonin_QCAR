@@ -3,7 +3,7 @@ close all; clear;
 open_system('BicyclePeterCorkeP2P.slx')
 
 goalCoord = [5 5];
-initCoord = [8 5 pi/2];
+initCoord = [8 5 2*pi/3];
 
 speedLim = 1;
 accelLim = 1;
