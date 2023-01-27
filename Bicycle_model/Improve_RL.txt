@@ -1,0 +1,5 @@
+Converges slowly
+
+Add XY scope to see path during learning
+
+In distMin : dist to get reward, but distR and distL in observations =>  steering changes if obstacle in left or right
