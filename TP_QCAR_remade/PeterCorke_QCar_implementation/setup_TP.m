@@ -8,8 +8,8 @@ clear; clear all ; clear functions
  vehicle_length = 0.256; % (m) wheelbase
  vehicle_width  = 0.170; % (m)
  
-x0 = [0 0 0];
-xg = [1 1]; % Used for drivepoint
+x0 = [2 6 pi/2];
+xg = [2 5]; % Used for drivepoint
 L = [1 -1 1]; % Used for driveline => [a b c] creates a line of equation ax + by + c = 0
 
 X_ic = x0(1); % (m) random ICs on X position, note: rand() is on [0 1]
